@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pokemapper"
+version = "0.1.0"
+description = ""
+authors = ["d-curtis <dave@dcurtis.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.10.6"
+click = "^8.1.8"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
